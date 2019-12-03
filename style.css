@@ -40,12 +40,20 @@ a {
 .logo {
     display: flex;
     align-items: center;
+width: 93px;
+height: 19px;
+color: #222222;
+font-family: Lato;
+font-size: 27px;
+font-weight: 300;
+line-height: 32px;
+text-transform: uppercase;
 }
 
 .header_form {
     display: flex; 
     align-items: center;
-    margin-left: 37px;
+    margin-left: 137px;
 }
 
 .header_cart {
