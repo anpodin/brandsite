@@ -1,61 +1,88 @@
-  
-* {
-    padding: 0;
-    margin: 0;
-    font-family: Lato;
+  * {
+      padding: 0;
+      margin: 0;
+  }
+
+body{
+    font-family: 'Lato',sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
+  a {
+      text-decoration: none;
+  }
 
-.center {
-    padding: 0 calc(50% - 570px);
-}
+  .center {
+      padding: 0 calc(50% - 570px);
+  }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
-    border-right: ;r: 1px solid #ececec;
-    background-color: #ffffff;
-    height: 100px;
-}
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+      border-right: ;
+      r: 1px solid #ececec;
+      background-color: #ffffff;
+      height: 100px;
+  }
 
-.logo__img {
-    margin-right: 13px;
-}
+  .logo__img {
+      margin-right: 13px;
+  }
 
-.header__left {
-    display: flex;
-    align-items: center;
-}
+  .header__left {
+      display: flex;
+      align-items: center;
+  }
 
-.header__right {
-    display: flex;
-    align-items: center;
-}
+  .header__right {
+      display: flex;
+      align-items: center;
+  }
 
-.logo {
-    display: flex;
-    align-items: center;
-width: 93px;
-height: 19px;
-color: #222222;
-font-family: Lato;
-font-size: 27px;
-font-weight: 300;
-line-height: 32px;
-text-transform: uppercase;
-}
+  .logo {
+      display: flex;
+      align-items: center;
+      width: 93px;
+      height: 19px;
+      color: #222222;
+      font-family: Lato;
+      font-size: 27px;
+      font-weight: 300;
+      line-height: 32px;
+      text-transform: uppercase;
+  }
 
-.header_form {
-    display: flex; 
-    align-items: center;
-    margin-left: 137px;
-}
+  .header_form {
+      display: flex;
+      align-items: center;
+      margin-left: 137px;
+  }
 
-.header_cart {
-    margin-right: 26px;
+  .header_cart {
+      margin-right: 26px;
+  }
+
+  .menu {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+  }
+
+  .menu_link {
+      color: #222222;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+      padding: 20px;
+      display: block;
+  }
+
+.promo {
+    background-color: #e8e8e8;
+    height: 613px;
+    background-image: url(img/manindex.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
