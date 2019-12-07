@@ -101,3 +101,42 @@
     text-transform: uppercase;
     font-weight: 400;
 }
+
+.man_mozaic {
+    background-image: url(img/man_mozaic.jpg);
+    width: 560px;
+    height: 542px;
+    margin-bottom: 20px;
+}
+
+.woman_mozaic {
+    background-image: url(img/woman_mozaic.jpg);
+    width: 560px;
+    height: 261px;
+    margin-bottom: 20px
+}
+
+.wallet_mozaic {
+    background-image: url(img/wallet_mozaic.jpg);
+    background-color: #dadad2;
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 261px;
+}
+
+.kid_mozaic {
+    background-image: url(img/kid_mozaic.jpg);
+    width: 560px;
+    height: 542px;
+}
+
+.mozaic {
+    display: flex;
+    margin-top: 98px;
+    width: 100%;
+    height: 823px;
+}
+
+.mosaic_side {
+    margin-right: 20px;
+}
