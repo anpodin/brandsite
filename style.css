@@ -3,9 +3,9 @@
       margin: 0;
   }
 
-body{
-    font-family: 'Lato',sans-serif;
-}
+  body {
+      font-family: 'Lato', sans-serif;
+  }
 
   a {
       text-decoration: none;
@@ -79,10 +79,25 @@ body{
       display: block;
   }
 
-.promo {
-    background-color: #e8e8e8;
-    height: 613px;
-    background-image: url(img/manindex.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+  .promo {
+      background-color: #e8e8e8;
+      height: 613px;
+
+  }
+
+  .promo_content {
+      background-image: url(img/manindex.jpg);
+      background-repeat: no-repeat;
+      height: 100%;
+      background-position: 0 -50px;
+      display: flex;
+      align-items: center;
+  }
+
+.promo__text {
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
 }
