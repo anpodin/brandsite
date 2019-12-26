@@ -107,6 +107,7 @@
     width: 560px;
     height: 542px;
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .woman_mozaic {
@@ -114,6 +115,7 @@
     width: 560px;
     height: 261px;
     margin-bottom: 20px
+    margin-right: 20px
 }
 
 .wallet_mozaic {
@@ -128,15 +130,20 @@
     background-image: url(img/kid_mozaic.jpg);
     width: 560px;
     height: 542px;
+    margin-top: -281px;
 }
 
 .mozaic {
+    margin-top: 100px;
     display: flex;
-    margin-top: 98px;
-    width: 100%;
-    height: 823px;
+    flex-wrap: wrap;
+    justify-content: space-between
 }
 
 .mosaic_side {
     margin-right: 20px;
+}
+
+.man_mozaic {
+    
 }
