@@ -214,3 +214,59 @@
     display: flex;
     justify-content: center;
 }
+
+.special_offer {
+    margin-top: 100px;    
+    display: flex;
+    width: 1140px;
+    height: 529px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.snow_w {
+    background-image: url(img/snow_w.jpg);
+    width: 767px;
+    height: 529px;
+    
+}
+
+.right_text {
+    display: flex;
+    width: 373px;
+    height: 529px;
+    background-color: #222224;
+    flex-wrap:wrap;
+}
+
+.promo__text_2 {
+    
+}
+
+.promo__text_snow {
+    margin-left: 40px;
+    margin-top: 145px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+
+.snow_logo {
+    width: 80px;
+    height: 32px;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 30px;
+        
+}
+
+.white_text {
+    color: white;
+}
+
+.spec_offer_right_txt {
+    width: 229px;
+    height: 140px;
+    padding-top: 40px;
+}
