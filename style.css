@@ -270,3 +270,36 @@
     height: 140px;
     padding-top: 40px;
 }
+
+.subscribe_block {
+    display: flex;
+    align-content: center;
+    margin-top: 100px;
+    height: 438px;
+    align-items: center;
+    background-color: #f2f2f2;
+    background-image: url(img/seashore.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5px;
+        
+}
+
+.promo_background {
+    position: relative;
+    background-image: url(img/seashore.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.w_avatar {
+    width: 83px;
+    padding-right: 20px;
+}
+
+.footer_white {
+    margin-top: 120px;
+    height: 300px;
+}
