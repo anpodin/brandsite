@@ -422,3 +422,22 @@ input {
     color: white;
     background-color: #f16d7f;
 }
+
+.menu_list {
+    position: relative;
+}
+
+.woman_dropdown {
+    background-color: white;
+    width: 846px;
+    height: 316px;
+    position: absolute;
+    display: none;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.w_hover:hover .woman_dropdown {
+    display: flex;
+}
